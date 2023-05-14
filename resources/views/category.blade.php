@@ -14,7 +14,7 @@
     </script>
 
     <title>
-        Index
+        Category
     </title>
     <style>
     .loading {

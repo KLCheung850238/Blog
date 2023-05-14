@@ -123,13 +123,6 @@
                                     id="content"></textarea>
                             </div>
                         </div>
-                        
-                        <div class="form-group">
-                            <label for="nickname" class="col-sm-3 control-label"></i>Blog Photo</label>
-                            <div class="col-sm-9">
-                                <input type="file" class="form-control"  id="photo">
-                            </div>
-                        </div>
 
                         <div class="form-group">
                             <div class="col-sm-offset-3 col-sm-2">

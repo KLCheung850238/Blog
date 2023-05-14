@@ -87,12 +87,6 @@ class AdminController extends BaseController
         $title = $request->input('title');
         $content = $request->input('content');
         $cate_id = $request->input('cate_id');
-        $path = $request->photo->path();
-        if (!$request->file('photo')->isValid()) {
-            $arr['code'] = 0;
-            $arr['msg'] = "file is not valid";
-            return response()->json($arr);
-        }
         if (trim($title, " ") == "" || mb_strlen($title) < 1) {
             $arr['code'] = 0;
             $arr['msg'] = "title can not be empty";

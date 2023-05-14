@@ -30,13 +30,13 @@
                 @endforeach
             </ul>
 
-            <form class="navbar-form navbar-left" id="searchForm" action="/blog/public/search" method="POST">
+            <!-- <form class="navbar-form navbar-left" id="searchForm" action="/blog/public/search" method="POST">
                 <div class="form-group">
                     <input type="text" id="keyword" name="keyword" size="30" class="form-control"
                         placeholder="Search Blogs Or Comments">
                 </div>
                 <button type="submit" class="btn btn-primary">Search</button>
-            </form>
+            </form> -->
             <ul class='nav navbar-nav navbar-right'>
                 @if(Session::has('uid'))
                 <li><a type="button" style="color:#3c78d8;"
