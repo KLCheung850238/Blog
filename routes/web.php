@@ -13,7 +13,6 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-use App\Http\Controllers\HelloController;
 use App\Http\Controllers\IndexController;
 use App\Http\Controllers\AdminController;
 
