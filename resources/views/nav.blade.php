@@ -22,7 +22,7 @@
                     <ul class="dropdown-menu">
                         <?php $child_category = Illuminate\Support\Facades\DB::select('SELECT * from categories WHERE parent_id =?', [$cate->cate_id]); foreach($child_category as $child): ?>
                         <li><a
-                                href="/blog/public/category/<?php echo $cate->cate_id;?>"><?php echo $child->cate_name;?></a>
+                                href="/blog/public/category/<?php echo $child->cate_id;?>"><?php echo $child->cate_name;?></a>
                         </li>
                         <?php endforeach; ?>
                     </ul>
