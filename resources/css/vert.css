@@ -1,0 +1,38 @@
+#vert {
+    width: 300px;
+    height: 200px;
+    border: 1px solid skyblue;
+    background-color: slategray;
+    position: relative;
+}
+
+#vert ul li {
+    float: left;
+    position: absolute;
+    bottom: 0px;
+    background-color: salmon;
+    text-align: center;
+    font-weight: bold;
+    color: black;
+    height: 100px;
+    width: 30px;
+    list-style: none;
+}
+
+#vert ul li.c1 {
+    left: 50px;
+    height: 120px;
+    background-color: darkcyan;
+}
+
+#vert ul li.c2 {
+    left: 100px;
+    height: 180px;
+    background-color: slateblue;
+}
+
+#vert ul li.c3 {
+    left: 150px;
+    height: 60px;
+    background-color: darkgreen;
+}
