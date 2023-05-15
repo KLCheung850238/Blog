@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\ApiController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -59,3 +60,6 @@ Route::get('/admin/count_comment', [AdminController::class, 'count_comment']);
 // API
 Route::get('/api/blogs', [IndexController::class, 'blogs']);
 
+// Communicate API
+Route::get('/api/password', [ApiController::class, 'getAutoPassowrd']);
+Route::get('/api/news', [ApiController::class, 'getNews']);
